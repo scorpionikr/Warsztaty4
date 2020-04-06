@@ -1,0 +1,35 @@
+{
+  "name": "kra_fer_w_10_es6_react",
+  "version": "1.0.0",
+  "description": "<img src=\"http://coderslab.pl/img/coderslab-logo.png\" align=\"right\" width=\"400\"/>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot -d",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scorpionikr/KRA_FER_W_10_ES6_REACT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scorpionikr/KRA_FER_W_10_ES6_REACT/issues"
+  },
+  "homepage": "https://github.com/scorpionikr/KRA_FER_W_10_ES6_REACT#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "date-fns": "^2.11.1",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  }
+}
